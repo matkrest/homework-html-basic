@@ -6,19 +6,25 @@
     <title>Регистрация</title>
 </head>
 <body>
-    <main>
+    <header>
         <h1>Регистрация</h1>
         <p>У вас уже есть аккаунт?</p>
         <a href="#">Войти</a>
-        <p>Моя компания</p>
+    </header>
+    <main>
         <form action="#">
-            <input type="text" placeholder="Имя">
-            <input type="text" placeholder="Фамилия"> <br>
-            <input type="text" placeholder="E-mail"> <br>
-            <button>Зарегестрироваться &#10513;</button> <br>
-            <input type="checkbox" name="agree" id="agree">
-            <label for="agree">Я прочитал и принимаю</label>
-            <a href="#">Условия пользовния</a>
+            <input type="text" placeholder="Компания" value="Моя компания">
+            <div>
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Фамилия">
+                <input type="text" placeholder="E-mail">
+            </div>
+            <button>Зарегестрироваться &#10513;</button>
+            <div>
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree">Я прочитал и принимаю</label>
+                <a href="#">Условия пользовния</a>
+            </div>
         </form>
     </main>
 </body>
