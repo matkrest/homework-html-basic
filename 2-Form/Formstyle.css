@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Open-sans, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #F39494;
+}
+
+h1 {
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.03px;
+    text-align: center;
+}
+
+p {
+    color: #666666;
+}
+
+a {
+    color: #089FE0;
+    text-decoration: none;
+}
+
+label{
+    color: #666666;
+}
+
+header {
+    margin-bottom: 73px;
+    font-size: 18px;
+}
+
+.mainform {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:0px;
+    height: 283px;
+}
+
+.mainform button{
+    border: 0;
+    border-radius: 5px;
+    width: 394px;
+    height: 44px;
+    background-color: #089FE0;
+    color: white;
+}
+
+.mainform input{
+    padding-left: 11px;
+}
+
+.flexdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.textinput {
+    width: 394px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #F5F5F5;
+}
+
+#fio {
+    width: 394px;
+    height: 44px;
+}
+
+#fio input{
+    width: calc(384px / 2);
+    display: inline-block;
+    padding: 0;
+    padding-left: 11px;
+}
+
+#fio input:first-child{
+    border-radius: 5px 0px 0px 5px;
+    border-right: 1px;
+}
+
+#fio input:last-child{
+    border-radius: 0px 5px 5px 0px;
+    border-left: 1px;
+}
+
+#formdiv {
+    background-color: white;
+    font-size: 18px;
+    background-color: #FFFEFE;
+    width: 582px;
+    height :573px;
+    border-radius: 10px;
+    justify-content: space-between;
+    row-gap: 48px;
+    padding: 72px 106px 91px 93px;
+}
+
+#acc {
+    display: flex;
+    width: 218px;
+    height: 26px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#arrow {
+    text-align: end;
+    padding-right: 24px;
+}
+
+#useform {
+    font-size: 14px;
+}
+
+#useform label{
+    margin-right: 10px;
+}
+
+#useform input{
+    color: #F5F5F5;
+    border: 0;
+}
+
+#mycompany {
+    background-color: #FFFEFE;
+    border: 1px solid #F5F5F5;
+}
