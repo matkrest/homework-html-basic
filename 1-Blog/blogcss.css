@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    height: 170vh;
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+body p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+nav {
+    margin-top: 81px;
+    margin-bottom: 80px;
+}
+
+nav input{
+    background: #1F2937 60%;
+    border: 1px solid black;
+    border-radius: 100px;
+    height: 40px;
+    width: 224px;
+    padding-left: 49px;
+    font-size: 16px;
+    color: #FFFFFF 60%;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.greytext{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #FFFFFF60;
+    margin-bottom: 14;
+}
+
+#imgagemon{
+    margin-top: 28px;
+    margin-bottom: 69px;
+}
+
+#authorgroup{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#authorgroup img{
+    width: 50px;
+    height: 50px;
+}
+
+#authorgroup *{
+    margin: 0;
+}
+
+#authorgrouptext p{
+    text-align: start;
+    margin-left: 16px;
+}
+
+#copyright{
+    margin-top: 103px;
+}
+
+#authorgroup{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#bottomauthorgroup {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF60;
+}
+
+#spisok {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 180px;
+}
+
+#myblog {
+    margin-right: 77px;
+}
+
+#spisok input{
+    width: 224px;
+    height: 40px;
+    margin-left: 346px;
+}
+
+#last p{
+    margin-left: 367px;
+    margin-right: 365px;
+    text-align: start;
+}
